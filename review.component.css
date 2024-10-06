@@ -1,0 +1,54 @@
+h2,h1{
+    color:red;
+}
+#le{
+    margin-left:0px;
+    width:200px;
+    height:2px;
+    color:red;
+    margin-top:0px;
+}
+#f1{
+    display:flex;
+}
+#f2{
+    width:33%;
+    border:2px solid navy;
+    border-radius:10px;
+    text-align:justify;
+    padding:4px;
+}
+#ss{
+    width:20px;
+    height:20px;
+    margin-left:50%;
+}
+#f3{
+    display:flex;
+}
+#f4{
+    width:33%;
+    display:flex;
+    margin-left:200px;
+    margin-top:20px;
+}
+#sa{
+    width:100px;
+    height:100px;
+}
+#sb{
+    width:150px;
+    height:50px;
+}
+#f5{
+    width:33%;
+    display:flex;
+    margin-left:150px;
+    margin-top:20px;
+}
+#f6{
+    width:33%;
+    display:flex;
+    margin-left:150px;
+    margin-top:20px;
+}

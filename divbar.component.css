@@ -1,0 +1,36 @@
+#area{
+    width:33%;
+    height:60px;
+    background-color:navy;
+    margin-left:2px;
+    color:White;
+    justify-content: center;
+    text-align: center;
+}
+#container1{
+    display:flex;
+}
+#container2{
+    display:flex;
+}
+#id1{
+    width:33%;
+    text-align:justify;
+}
+#im{
+    width:30px;
+    height:30px;
+}
+b{
+    color:red;
+}
+#c1{
+    width:33%;
+}
+#id2{
+    display:flex;
+    margin-top: 10px;
+}
+#c2{
+    width:33%;
+}

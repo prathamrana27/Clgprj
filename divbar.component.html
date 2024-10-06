@@ -1,0 +1,44 @@
+<div id="container1">
+  <div id="area">
+    <h3>RECENT NEWS</h3>
+  </div>
+  <div id="area">
+    <h3>CAMPUS NEWS</h3>
+  </div>
+  <div id="area">
+    <h3>COLLEGE CALENDER</h3>
+  </div>
+</div>
+
+<div id="container2">
+  <div id="id1">
+    <marquee direction="up">
+      <p>
+        <b>{{d1[0]}} :</b> {{m1}}<img id=im src="/assets/new.gif"><br>
+        <b>{{d1[1]}} :</b> {{m2}}<img id=im src="/assets/new.gif"><br>
+        <b>{{d1[2]}} :</b> {{m3}}<img id=im src="/assets/new.gif"><br>
+        <b>{{d1[3]}} :</b> {{m4}}<img id=im src="/assets/new.gif"><br>
+        <b>{{d1[4]}} :</b> {{m5}}<img id=im src="/assets/new.gif">
+      </p>
+    </marquee>
+  </div>
+  <div id="c1">
+    @for(x of im;track $index){
+    <div id="id2">
+      <div><img width="100" height="100" src="{{x}}"></div>
+      <div>
+        <p>{{m1}}</p>
+      </div>
+    </div>
+    }
+  </div>
+
+  <div id="c2">
+    @for(y of d1;track $index){
+    <div id="id2">
+    <div><b>{{y}}</b>:</div>
+    <div>{{m1}}</div>
+    </div>
+  }
+  </div>
+</div>

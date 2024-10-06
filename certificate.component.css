@@ -1,0 +1,40 @@
+#area{
+    width:33%;
+    height:60px;
+    background-color:navy;
+    margin-left:2px;
+    color:White;
+    justify-content: center;
+    text-align: center;
+}
+#container1{
+    display:flex;
+}
+#qw{
+    width:120px;
+    height:120px;
+    margin-top:20px;
+    margin-left:20px;
+}
+#fe{
+    display:flex;
+}
+#ff{
+    width:33%;
+}
+#id22{
+    margin-top:45px;
+    margin-left:30px;
+}
+#size{
+    width:280px;
+    height:280px;
+    margin-left:170px;
+    margin-top:20px;
+}
+#size1{
+    width:280px;
+    height:280px;
+    margin-left:260px;
+    margin-top:20px;
+}
