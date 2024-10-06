@@ -1,0 +1,28 @@
+*{
+    font-family:calibri;
+}
+div{
+    display:flex;
+}
+p{
+    margin-top:0px;
+    color:red;
+}
+#id11{
+    background-color:navy;
+    color:yellow;
+    height:25px
+}
+h2{
+    color:red;
+}
+#sp{
+    width:20%;
+    height:200px;
+    margin-left:70px;
+    border:2px solid blue;
+    border-radius:10px;
+}
+h1,h2{
+    color:red;
+}
